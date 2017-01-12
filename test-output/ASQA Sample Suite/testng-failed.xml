@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ASQA Sample Suite]">
+  <test name="ASQA Sample Test(failed)">
+    <classes>
+      <class name="pom.NewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- pom.NewTest -->
+    </classes>
+  </test> <!-- ASQA Sample Test(failed) -->
+</suite> <!-- Failed suite [ASQA Sample Suite] -->
